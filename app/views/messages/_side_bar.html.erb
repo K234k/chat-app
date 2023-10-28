@@ -3,6 +3,7 @@
     <a href="#">Tom</a>
   </div>
   <div class="create-room">
+  <%= link_to current_user.name, edit_user_path(current_user) %>
     <a href="#">チャットを作成する</a>
   </div>
 </div>

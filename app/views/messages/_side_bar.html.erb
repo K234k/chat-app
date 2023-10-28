@@ -5,6 +5,7 @@
   <div class="create-room">
   <%= link_to current_user.name, edit_user_path(current_user) %>
     <a href="#">チャットを作成する</a>
+    <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
   </div>
 </div>
 
